@@ -4,7 +4,9 @@ Modern marketing site for **Anushka Shah** (actor, playwright, poet). Built as a
 
 ## Preview URL
 
-After GitHub Pages is enabled (**Settings → Pages → Source: GitHub Actions**):
+After GitHub Pages is enabled (**Settings → Pages → Branch: `gh-pages`**, folder `/ (root)`):
+
+> **Blank page?** If Source is `main`, the site loads dev files and stays empty. Switch to **`gh-pages`**.
 
 **https://larryshawgh.github.io/-anushka-site/**
 
