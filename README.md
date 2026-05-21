@@ -6,7 +6,7 @@ Modern marketing site for **Anushka Shah** (actor, playwright, poet). Built as a
 
 After GitHub Pages is enabled (**Settings → Pages → Source: GitHub Actions**):
 
-**https://larryshawgh.github.io/anushka-site/**
+**https://larryshawgh.github.io/-anushka-site/**
 
 ## Local development
 
