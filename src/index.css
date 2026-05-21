@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply font-sans text-ink bg-cream antialiased;
+  }
+
+  ::selection {
+    @apply bg-wine/20 text-ink;
+  }
+}
+
+@layer components {
+  .section-pad {
+    @apply px-5 py-20 sm:px-8 lg:px-12 lg:py-28;
+  }
+
+  .heading-display {
+    @apply font-display font-semibold tracking-tight text-ink;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-ink px-7 py-3.5 text-sm font-medium text-cream transition hover:bg-wine;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-ink/20 bg-transparent px-7 py-3.5 text-sm font-medium text-ink transition hover:border-ink hover:bg-ink hover:text-cream;
+  }
+
+  .label-caps {
+    @apply text-xs font-medium uppercase tracking-[0.2em] text-ink/50;
+  }
+}
